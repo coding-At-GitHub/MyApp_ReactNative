@@ -7,10 +7,29 @@ export default function ScrollCards() {
             <Text style={styles.headingText}>Scroll Cards</Text>
 
             <ScrollView horizontal={true}>
-              <View>
-                <Text>Ui </Text>
-              </View>
-
+                <View style={styles.container}>
+                    <View style={[styles.card, styles.cardOne]}>
+                        <Text>You</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardTwo]}>
+                        <Text>can</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardThree]}>
+                        <Text>scroll</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardFour]}>
+                        <Text>these</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardFive]}>
+                        <Text>cards</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardSix]}>
+                        <Text>horizontally...</Text>
+                    </View>
+                    <View style={[styles.card, styles.cardSeven]}>
+                        <Text>Thanks</Text>
+                    </View>
+                </View>
             </ScrollView>
         </View>
     )
