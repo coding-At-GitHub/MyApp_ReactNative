@@ -4,7 +4,21 @@ import React from 'react'
 export default function FlatCards() {
   return (
     <View>
-     <Text>UI boxes</Text>
+      <Text style={styles.headingText}>Flat Cards</Text>
+      <View style={styles.container}>
+        <View style={[styles.card, styles.cardOne]}>
+            <Text>Red</Text>
+        </View>
+        <View style={[styles.card, styles.cardTwo]}>
+            <Text>Red</Text>
+        </View>
+        <View style={[styles.card, styles.cardThree]}>
+            <Text>Red</Text>
+        </View>
+        <View style={[styles.card, styles.cardFour]}>
+            <Text>Orange</Text>
+        </View>
+      </View>
     </View>
   )
 }
